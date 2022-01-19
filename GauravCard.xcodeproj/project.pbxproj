@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09707D1E2798B88300129E6B /* GauravCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09707D1D2798B88300129E6B /* GauravCardApp.swift */; };
+		09707D202798B88300129E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09707D1F2798B88300129E6B /* ContentView.swift */; };
+		09707D222798B88300129E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09707D212798B88300129E6B /* Assets.xcassets */; };
+		09707D252798B88300129E6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09707D242798B88300129E6B /* Preview Assets.xcassets */; };
+		09707D2F2798B88300129E6B /* GauravCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09707D2E2798B88300129E6B /* GauravCardTests.swift */; };
+		09707D392798B88400129E6B /* GauravCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09707D382798B88400129E6B /* GauravCardUITests.swift */; };
+		09707D3B2798B88400129E6B /* GauravCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09707D3A2798B88400129E6B /* GauravCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09707D2B2798B88300129E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09707D122798B88300129E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09707D192798B88300129E6B;
+			remoteInfo = GauravCard;
+		};
+		09707D352798B88400129E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09707D122798B88300129E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09707D192798B88300129E6B;
+			remoteInfo = GauravCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09707D1A2798B88300129E6B /* GauravCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GauravCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09707D1D2798B88300129E6B /* GauravCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravCardApp.swift; sourceTree = "<group>"; };
+		09707D1F2798B88300129E6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09707D212798B88300129E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09707D242798B88300129E6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09707D2A2798B88300129E6B /* GauravCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GauravCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09707D2E2798B88300129E6B /* GauravCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravCardTests.swift; sourceTree = "<group>"; };
+		09707D342798B88400129E6B /* GauravCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GauravCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09707D382798B88400129E6B /* GauravCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravCardUITests.swift; sourceTree = "<group>"; };
+		09707D3A2798B88400129E6B /* GauravCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09707D172798B88300129E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09707D272798B88300129E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09707D312798B88400129E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09707D112798B88300129E6B = {
+			isa = PBXGroup;
+			children = (
+				09707D1C2798B88300129E6B /* GauravCard */,
+				09707D2D2798B88300129E6B /* GauravCardTests */,
+				09707D372798B88400129E6B /* GauravCardUITests */,
+				09707D1B2798B88300129E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09707D1B2798B88300129E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09707D1A2798B88300129E6B /* GauravCard.app */,
+				09707D2A2798B88300129E6B /* GauravCardTests.xctest */,
+				09707D342798B88400129E6B /* GauravCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09707D1C2798B88300129E6B /* GauravCard */ = {
+			isa = PBXGroup;
+			children = (
+				09707D1D2798B88300129E6B /* GauravCardApp.swift */,
+				09707D1F2798B88300129E6B /* ContentView.swift */,
+				09707D212798B88300129E6B /* Assets.xcassets */,
+				09707D232798B88300129E6B /* Preview Content */,
+			);
+			path = GauravCard;
+			sourceTree = "<group>";
+		};
+		09707D232798B88300129E6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09707D242798B88300129E6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09707D2D2798B88300129E6B /* GauravCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				09707D2E2798B88300129E6B /* GauravCardTests.swift */,
+			);
+			path = GauravCardTests;
+			sourceTree = "<group>";
+		};
+		09707D372798B88400129E6B /* GauravCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09707D382798B88400129E6B /* GauravCardUITests.swift */,
+				09707D3A2798B88400129E6B /* GauravCardUITestsLaunchTests.swift */,
+			);
+			path = GauravCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09707D192798B88300129E6B /* GauravCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09707D3E2798B88400129E6B /* Build configuration list for PBXNativeTarget "GauravCard" */;
+			buildPhases = (
+				09707D162798B88300129E6B /* Sources */,
+				09707D172798B88300129E6B /* Frameworks */,
+				09707D182798B88300129E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GauravCard;
+			productName = GauravCard;
+			productReference = 09707D1A2798B88300129E6B /* GauravCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09707D292798B88300129E6B /* GauravCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09707D412798B88400129E6B /* Build configuration list for PBXNativeTarget "GauravCardTests" */;
+			buildPhases = (
+				09707D262798B88300129E6B /* Sources */,
+				09707D272798B88300129E6B /* Frameworks */,
+				09707D282798B88300129E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09707D2C2798B88300129E6B /* PBXTargetDependency */,
+			);
+			name = GauravCardTests;
+			productName = GauravCardTests;
+			productReference = 09707D2A2798B88300129E6B /* GauravCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09707D332798B88400129E6B /* GauravCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09707D442798B88400129E6B /* Build configuration list for PBXNativeTarget "GauravCardUITests" */;
+			buildPhases = (
+				09707D302798B88400129E6B /* Sources */,
+				09707D312798B88400129E6B /* Frameworks */,
+				09707D322798B88400129E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09707D362798B88400129E6B /* PBXTargetDependency */,
+			);
+			name = GauravCardUITests;
+			productName = GauravCardUITests;
+			productReference = 09707D342798B88400129E6B /* GauravCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09707D122798B88300129E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					09707D192798B88300129E6B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					09707D292798B88300129E6B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 09707D192798B88300129E6B;
+					};
+					09707D332798B88400129E6B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 09707D192798B88300129E6B;
+					};
+				};
+			};
+			buildConfigurationList = 09707D152798B88300129E6B /* Build configuration list for PBXProject "GauravCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09707D112798B88300129E6B;
+			productRefGroup = 09707D1B2798B88300129E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09707D192798B88300129E6B /* GauravCard */,
+				09707D292798B88300129E6B /* GauravCardTests */,
+				09707D332798B88400129E6B /* GauravCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09707D182798B88300129E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09707D252798B88300129E6B /* Preview Assets.xcassets in Resources */,
+				09707D222798B88300129E6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09707D282798B88300129E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09707D322798B88400129E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09707D162798B88300129E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09707D202798B88300129E6B /* ContentView.swift in Sources */,
+				09707D1E2798B88300129E6B /* GauravCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09707D262798B88300129E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09707D2F2798B88300129E6B /* GauravCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09707D302798B88400129E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09707D3B2798B88400129E6B /* GauravCardUITestsLaunchTests.swift in Sources */,
+				09707D392798B88400129E6B /* GauravCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09707D2C2798B88300129E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09707D192798B88300129E6B /* GauravCard */;
+			targetProxy = 09707D2B2798B88300129E6B /* PBXContainerItemProxy */;
+		};
+		09707D362798B88400129E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09707D192798B88300129E6B /* GauravCard */;
+			targetProxy = 09707D352798B88400129E6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09707D3C2798B88400129E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09707D3D2798B88400129E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09707D3F2798B88400129E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GauravCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gauravpatil.GauravCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09707D402798B88400129E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GauravCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gauravpatil.GauravCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09707D422798B88400129E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gauravpatil.GauravCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GauravCard.app/GauravCard";
+			};
+			name = Debug;
+		};
+		09707D432798B88400129E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gauravpatil.GauravCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GauravCard.app/GauravCard";
+			};
+			name = Release;
+		};
+		09707D452798B88400129E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gauravpatil.GauravCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GauravCard;
+			};
+			name = Debug;
+		};
+		09707D462798B88400129E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gauravpatil.GauravCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GauravCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09707D152798B88300129E6B /* Build configuration list for PBXProject "GauravCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09707D3C2798B88400129E6B /* Debug */,
+				09707D3D2798B88400129E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09707D3E2798B88400129E6B /* Build configuration list for PBXNativeTarget "GauravCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09707D3F2798B88400129E6B /* Debug */,
+				09707D402798B88400129E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09707D412798B88400129E6B /* Build configuration list for PBXNativeTarget "GauravCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09707D422798B88400129E6B /* Debug */,
+				09707D432798B88400129E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09707D442798B88400129E6B /* Build configuration list for PBXNativeTarget "GauravCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09707D452798B88400129E6B /* Debug */,
+				09707D462798B88400129E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09707D122798B88300129E6B /* Project object */;
+}
