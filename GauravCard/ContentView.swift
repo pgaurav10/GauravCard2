@@ -25,6 +25,7 @@ struct ContentView: View {
                 Text("Software Engineer")
                     .foregroundColor(.white)
                     .font(.system(size: 20))
+                
             }
         }
         
