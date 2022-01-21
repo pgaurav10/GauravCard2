@@ -16,8 +16,9 @@ struct ContentView: View {
                 Image("GauravPatil")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 150, height: 190)
+                    .frame(width: 150, height: 165)
                     .clipShape(Circle())
+                    .overlay(Circle().stroke(Color.white,lineWidth: 5))
                 Text("Gaurav Patil ")
                     .font(Font.custom("Pacifico-Regular", size: 30))
                     .bold()
@@ -25,8 +26,11 @@ struct ContentView: View {
                 Text("Software Engineer")
                     .foregroundColor(.white)
                     .font(.system(size: 20))
-                
+                Divider()
+                InfoView(text: "+1 (469) 943 - 4012", image: "phone.fill")
+                InfoView(text: "gaurav.patil.atwork@gmail.com", image: "envelope.fill")
             }
+            
         }
         
     }
@@ -37,3 +41,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

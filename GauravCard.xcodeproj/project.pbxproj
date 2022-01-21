@@ -16,6 +16,7 @@
 		09707D3B2798B88400129E6B /* GauravCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09707D3A2798B88400129E6B /* GauravCardUITestsLaunchTests.swift */; };
 		09707D492798C80400129E6B /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09707D482798C80400129E6B /* Pacifico-Regular.ttf */; };
 		09707D4C2798CA9300129E6B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09707D4B2798CA9300129E6B /* Launch Screen.storyboard */; };
+		09DFAB90279B1E34000A455A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DFAB8F279B1E34000A455A /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		09707D482798C80400129E6B /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		09707D4A2798CA1B00129E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		09707D4B2798CA9300129E6B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		09DFAB8F279B1E34000A455A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				09707D472798C7DA00129E6B /* Fonts */,
 				09707D1D2798B88300129E6B /* GauravCardApp.swift */,
 				09707D1F2798B88300129E6B /* ContentView.swift */,
+				09DFAB8F279B1E34000A455A /* InfoView.swift */,
 				09707D212798B88300129E6B /* Assets.xcassets */,
 				09707D232798B88300129E6B /* Preview Content */,
 			);
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09707D202798B88300129E6B /* ContentView.swift in Sources */,
+				09DFAB90279B1E34000A455A /* InfoView.swift in Sources */,
 				09707D1E2798B88300129E6B /* GauravCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
